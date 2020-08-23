@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.0.2)
+  - ProgressHUD (13.4)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ProgressHUD
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ProgressHUD
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  ProgressHUD: 137a7fc677487c5581668f4490563124fb35c232
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 07f9fe50d68d780382c319dda5a44c6442b68644
+
+COCOAPODS: 1.8.4
