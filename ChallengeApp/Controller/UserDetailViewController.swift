@@ -19,6 +19,7 @@ class UserDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = .white
         self.setupView()
         safeArea = view.layoutMarginsGuide
         setInformation()
@@ -80,7 +81,7 @@ class UserDetailViewController: UIViewController {
     func setView(){
         detailView.snp_makeConstraints { (make) in
             make.left.right.bottom.equalTo(self.view)
-            make.top.equalTo(self.view).offset(60)
+            make.top.equalTo(self.view).offset(80)
         }
         
         idLable.snp_makeConstraints { (make) in
